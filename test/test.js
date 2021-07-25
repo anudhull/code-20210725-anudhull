@@ -1,3 +1,6 @@
+// I have written direct functionality required and added the tests for the function.
+// This could also be done in a way by writing a API for this and then testing that API for various scenarios.
+
 import chai, { expect } from 'chai';
 import {
     calculateBMI,
