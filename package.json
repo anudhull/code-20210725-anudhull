@@ -1,0 +1,26 @@
+{
+  "name": "code-20210725-anudhull",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/register": "^7.14.5",
+    "chai": "^4.3.4",
+    "esm": "^3.2.25",
+    "mocha": "^9.0.2"
+  },
+  "scripts": {
+    "test": "mocha --require @babel/register --exit",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
